@@ -1,0 +1,88 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{60, 70}, {160, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "BA2F5894-0871-4760-84B8-35969AC684EA",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Guess the number",
+          "name" : "question_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{60, 124}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "3FFAD7FB-F31A-479D-BC5D-2D219598E73E",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "number_textfield",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{48, 179}, {77, 34}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "check_number_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Check",
+          "uuid" : "96D3513F-54C2-4D68-9F45-7F69F05B5AC1",
+          "class" : "Button",
+          "name" : "check_button",
+          "font_size" : 15
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{60, 234}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "EB075576-7260-4EDF-9111-024971A980A6",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "correct_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
